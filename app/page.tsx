@@ -83,7 +83,7 @@ export default function Home() {
       <section className="intro">
         <p className="eyebrow">작은 순간도, 기록이 되니까</p>
         <h1>오늘의 한 줄 기록<span className="dot">.</span></h1>
-        <p>오늘 배운 것, 기억에 남은 순간을 함께 나눠요.</p>
+        <p>오늘 배운 것, 기억에 남은 순간을 함께 나눠요........</p>
       </section>
 
       {configError && <aside className="setup" role="status"><h2>Supabase 연결을 준비해 주세요</h2><p>{configError}</p><p>README의 4~7단계를 따라 설정하면 기록을 작성할 수 있어요.</p></aside>}
